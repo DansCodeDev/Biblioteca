@@ -16,6 +16,7 @@ header {
     background-color: #171718;
     display: flex;
     align-items: center;
+    box-shadow: 0 0 20px #171717;
 }
 
 .nav{
@@ -124,29 +125,53 @@ nav ul li a {
     font-family: "Raleway", Arial, sans-serif;
     font-weight: bold;
     font-size: 40px;
-    text-align: center;
-    
+    text-align: center;  
 }
 
-.inicio h1{
-    margin: 0;
+.historia {
+    display: flex;
+}
+
+.contenedor {
+    flex: 1;
+    padding: 25px;
+    border: #000 solid 2px;
+    display: flex;
+
+}
+
+.texto {
+    flex: 1;
 }
 
 #historia {
-    display: flex;
-    
+    margin: 20px;    
+    background-color: #FF9B25;
+    box-shadow: 0 0 30px #FF9B25;
+    border: 5px solid;
+    padding: 15px;
+    border-color: #171717;   
 }
 
-.historia , .historiaimg {
+.historiaimg {
     flex: 1;
 }
 
 .historiaimg img {
-    width: 500px;
-    height: auto;
+    width: auto;
+    height: 500px;
     justify-content: center;
     align-items: center;
 }
+
+.desarrollo img{
+    width: 400px;
+    height: auto;
+    
+}
+
+
+
 
 .contact-section {
     display: flex;
