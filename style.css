@@ -1,6 +1,6 @@
 body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     width: 100%;
-    font-family: 'Courier New', Courier, monospace;
     color: #171718;
     background-color: #D4D4D4;
     overflow-x: hidden;
@@ -9,6 +9,7 @@ body{
 }
 
 header {
+    font-family: 'Courier New', Courier, monospace;
     width: 100%;
     position: absolute;
     margin: 0;
@@ -118,60 +119,109 @@ nav ul li a {
     width: 80%;
     height: auto;
     margin: 70px;
-    
 }
 
 .inicio {
-    font-family: "Raleway", Arial, sans-serif;
     font-weight: bold;
-    font-size: 40px;
-    text-align: center;  
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+.inicio h1{
+    padding: 0;
+    margin: 0;
 }
 
 .historia {
     display: flex;
 }
 
-.contenedor {
-    flex: 1;
-    padding: 25px;
-    border: #000 solid 2px;
-    display: flex;
+.contenedorOrigen {
+    flex: 0.87;
+    margin: 10px;
+    margin-right: 20px;
+    padding-bottom: 20px;
+    border: 3px solid #D4D4D4;
+    border-radius: 32px;
+    box-shadow: 0 0 5px #333;
+}
 
+.contenedorOrigen h3 {
+    font-size: 26px;
+    margin: 0;
+}
+
+span {
+    font-size: 16px;
 }
 
 .texto {
     flex: 1;
+    margin: 0;
+    padding: 0;
+}
+
+.texto h3 {
+    margin-left: 13px;
+    font-size: 26px;
+}
+
+p {
+    margin: 10px;
 }
 
 #historia {
-    margin: 20px;    
-    background-color: #FF9B25;
-    box-shadow: 0 0 30px #FF9B25;
-    border: 5px solid;
-    padding: 15px;
-    border-color: #171717;   
-}
+    margin: 15px 0px;    
 
-.historiaimg {
-    flex: 1;
+    padding: 10px;
 }
 
 .historiaimg img {
-    width: auto;
-    height: 500px;
+    border-radius: 30px;
+    width: 680px;
+    height: auto;
     justify-content: center;
     align-items: center;
 }
 
-.desarrollo img{
-    width: 400px;
-    height: auto;
-    
+.contenedorCrec {
+    flex: 1;
+    flex-direction: row;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 3px solid #D4D4D4;
+    border-radius: 32px;
+    box-shadow: 0 0 5px #333; 
 }
 
 
+.desarrollo img{
+    width: 350px;
+    height: auto;
+    border-radius: 30px;
+}
 
+.contribucion {
+    display: flex;
+    border: 3px solid #D4D4D4;
+    border-radius: 32px;
+    box-shadow: 0 0 5px #333;
+    
+}
+
+.contrimg img {
+    width: 350px;
+    border-radius: 30px;
+}
+
+.desarrollo,
+.contrimg {
+    display: flex;
+    align-items: flex-start; /* Asegura que los elementos dentro estén alineados en la parte superior */
+    margin: 0; /* Asegúrate de que no haya margen */
+    padding: 0;
+}
 
 .contact-section {
     display: flex;
