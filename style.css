@@ -125,6 +125,35 @@ nav ul li a {
     font-weight: bold;
     font-size: 20px;
     margin-left: 40px;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.show-more-container {
+    flex: 1;
+    text-align: right;
+}
+
+.show-more-button {
+    padding: 10px 20px;
+    background: #333;
+    color: #FF9B25;
+    text-decoration: none;
+    font-size: 16px;
+    border: 2px solid #FF9B25;
+    border-radius: 50px;
+    transition: background-color 0.3s, color 0.3s; 
+    display:inline-block;
+}
+
+.show-more-button .arrow {
+    margin-left: 5px;
+    font-size: 16px;
+}
+
+.show-more-button:hover {
+    background: #FF9B25;
+    color: #fff;
 }
 
 .inicio h1{
@@ -151,7 +180,7 @@ nav ul li a {
     margin: 0;
 }
 
-span {
+.inicio span {
     font-size: 16px;
 }
 
@@ -166,13 +195,12 @@ span {
     font-size: 26px;
 }
 
-p {
+#articulo p {
     margin: 10px;
 }
 
-#historia {
+#articulo {
     margin: 15px 0px;    
-
     padding: 10px;
 }
 
@@ -274,11 +302,19 @@ p {
     display: flex;
     gap: 15px;
     margin-top: 10px;
+    background-color: #171717;
+    width: 110px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #171717;
 }
 
 .social-icons i {
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
+    font-size: 27px;
+    margin-right: 7px;
+    color: #FF9B25;
 }
 
 .contact-form {
